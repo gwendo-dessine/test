@@ -1,6 +1,6 @@
 import { user } from '@refloat/context'
 
-export default {
+export const jobs = {
 	sample_job: {
 		steps: [{
 			command: 'echo "hello $user!"',
